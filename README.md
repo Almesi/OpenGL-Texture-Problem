@@ -24,3 +24,6 @@ Creating the texture but not loading any data (using null pointer) and then assi
 2. I tried changing the vertex x/y/z position and the tx/ty position
 3. I tried changing the Fragmenshader to make any color of value 0 to a specific color to check if the texture is just dark or completely empty(It was completely empty, every single pixel)
   Since everything is black that should mean, that the data was not assigned properly, but since glGetTexImage returns that data i dont know how to continue.
+
+The reason i did not build the Excel file fully is, that changes can be made to the individual files and they will be recompiled the next time the Test() sub is executed.
+This way you can edit the file in your own IDE instead of VBA´s IDE.
